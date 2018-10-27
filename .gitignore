@@ -1,0 +1,30 @@
+dev_requirements.txt
+build/
+dist
+.DS_Store
+commit.txt
+commit.org
+*.pickle
+*.pyc
+**/*.egg-info/
+tmp.txt
+tmp.py
+tmp*
+*~
+.#*
+.pytest_cache
+*cache*
+*.zip
+.coverage
+
+# Sensitive files
+*secret*
+.env
+.env*
+*.env
+.tox/
+api*.json
+template.json
+
+# virtualenvs
+env*/
